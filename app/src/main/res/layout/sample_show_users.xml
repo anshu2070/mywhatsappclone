@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="76dp"
+        android:layout_height="76dp"
+        android:layout_marginLeft="5dp"
+        android:padding="5dp"
+        android:src="@drawable/whatsappphoto"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp" />
+
+
+    -<LinearLayout android:orientation="vertical" android:layout_height="wrap_content" android:layout_width="match_parent" android:padding="5dp">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/userNameList" android:textStyle="bold" android:textSize="18sp" android:textColor="@color/white" android:text="Spy" android:layout_marginTop="6dp" android:paddingBottom="5dp" android:paddingTop="5dp"/>
+
+    <TextView
+        android:id="@+id/lastMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:text="lastmessage"
+        android:textColor="@color/white" />
+
+</LinearLayout>
+
+</LinearLayout>
